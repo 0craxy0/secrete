@@ -1,0 +1,3 @@
+# A CRLF working copy breaks the shell runner (paths and the interpreter line
+# pick up a trailing \r). Lua does not care either way.
+*.sh text eol=lf
